@@ -33,7 +33,9 @@ class CaesarCipher(private val shift: Int = 3) {
 fun main() {
     val cipher = CaesarCipher()
 
-    println("PIlih 1 Untuk Enkripsi 2 untuk Dekripsi")
+    println("===========================================")
+    println("| PIlih 1 Untuk Enkripsi 2 untuk Dekripsi |")
+    println("===========================================")
     print("Masukan pilihan: ")
     try {
         val pilihan = readln().toInt()
